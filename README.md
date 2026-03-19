@@ -1,7 +1,6 @@
-# My Portfolio Wesbite - Overview 🚀
+# Vraj Nakum - Portfolio 🚀
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+This repository contains the source for my personal portfolio.
 
 ## Instructions 🛠️
 
@@ -9,9 +8,8 @@ I have modified the gsap club plugins with the trial plugins, but with the trial
 
 **Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
 
-![Portfolio-Preview](public/images/preview.png)
+![Portfolio-Preview](public/images/portfolio-preview.png)
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-"# vraj2005.github.io" 
