@@ -91,7 +91,7 @@ const WhatIDo = () => {
               <h4>Building Interactive UIs</h4>
               <p>
                 Crafting performant, responsive interfaces with modern frameworks.
-                From SPAs to micro-frontends, I deliver pixel-perfect experiences.
+                From SPAs to dashboards, I deliver clean, user-focused experiences.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -100,7 +100,7 @@ const WhatIDo = () => {
                 <div className="what-tags">Next.js</div>
                 <div className="what-tags">TypeScript</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Material UI</div>
+                <div className="what-tags">Tailwind CSS</div>
                 <div className="what-tags">HTML5</div>
                 <div className="what-tags">CSS3</div>
               </div>
@@ -129,8 +129,8 @@ const WhatIDo = () => {
               <h3>BACKEND</h3>
               <h4>Scalable Server Architecture</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Designing robust APIs and services. From authentication to data
+                workflows, I build backends that scale and stay maintainable.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -139,9 +139,48 @@ const WhatIDo = () => {
                 <div className="what-tags">Express.js</div>
                 <div className="what-tags">MongoDB</div>
                 <div className="what-tags">PostgreSQL</div>
+                <div className="what-tags">MySQL</div>
                 <div className="what-tags">REST APIs</div>
-                <div className="what-tags">Microservices</div>
+                <div className="what-tags">.NET Core</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>AI/ML & DATA SCIENCE</h3>
+              <h4>Intelligent Data-Driven Solutions</h4>
+              <p>
+                Building ML models and computer vision pipelines with strong
+                data preprocessing, feature engineering, and evaluation focus.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
                 <div className="what-tags">Python</div>
+                <div className="what-tags">Pandas</div>
+                <div className="what-tags">NumPy</div>
+                <div className="what-tags">Scikit-learn</div>
+                <div className="what-tags">CNN</div>
+                <div className="what-tags">YOLO</div>
+                <div className="what-tags">Data Preprocessing</div>
+                <div className="what-tags">Feature Engineering</div>
               </div>
               <div className="what-arrow"></div>
             </div>
